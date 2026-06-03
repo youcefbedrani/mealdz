@@ -1,8 +1,6 @@
 # MealScan AI
 
 **Mobile Solution for Automated Meal Analysis Using Computer Vision**  
-Master's thesis · University Ziane Achour de Djelfa · AI · 2025/2026  
-Supervisor: Dr. BESSINE KARIMA
 
 ## Stack
 
