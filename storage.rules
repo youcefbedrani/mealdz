@@ -1,0 +1,9 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    // Meal images: only the owning user can read/write their own meal images
+    match /meals/{userId}/{mealId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+  }
+}
